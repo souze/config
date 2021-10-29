@@ -1,0 +1,17 @@
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	pr = "pull --rebase"
+	hist = "log --oneline"
+	files = "diff --name-only -r"
+	rc = "rebase --continue"
+	ra = "rebase --abort"
+	ri = "rebase --interactive"
+	amend = "commit --amend --no-edit"
+	
+[user]
+	name = Erik Karlsson
+[core]
+	editor = vim
+	pager = "less -+F -+X"
